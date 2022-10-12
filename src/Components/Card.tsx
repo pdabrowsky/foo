@@ -4,7 +4,11 @@ import { CardRunDetails } from "./CardRunDetails";
 
 const Card = () => {
   return (
-    <Container maxWidth="lg" sx={{ mx: 1, bgcolor: "#FAFAFA" }}>
+    <Container
+      maxWidth="lg"
+      disableGutters={true}
+      sx={{ bgcolor: "#FAFAFA", m: "80px auto 0", borderRadius: 2 }}
+    >
       <CardNav />
       <CardRunDetails />
     </Container>
